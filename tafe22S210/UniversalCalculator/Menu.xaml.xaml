@@ -25,13 +25,12 @@
 		<Button x:Name="CURRENCY_BUTTON_CLICK" Content="Currency Calcualtor" Margin="959,328,0,0" VerticalAlignment="Top" Width="177" Background="#33D6EA15" BorderBrush="#FFE41A1A" Click="CurrencyButton_Click"/>
 		<StackPanel>
 			<Button x:Name="TRIP_BUTTON_CLICK" Content="Trip Calculator" Margin="959,393,0,0" VerticalAlignment="Top" Width="177" Background="#33D6EA15" BorderBrush="#FFE41A1A"/>
-			<TextBlock x:Name="tripMessageTextBlock" HorizontalAlignment="Left" Margin="959,410,0,0" VerticalAlignment="Top" Width="300" FontStyle="Italic" FontSize="10"/>
 		</StackPanel>
 		<Button x:Name="EXIT_BUTTON_CLICK" Content="Exit" Margin="959,456,0,0" VerticalAlignment="Top" Width="177" Background="#33D6EA15" BorderBrush="#FFE41A1A" Click="ExitButton_Click"/>
 		<StackPanel>
 			<TextBlock x:Name="name_of_comapny" HorizontalAlignment="Left" Margin="714,96,0,0" Text="Universal Calcualtor" TextWrapping="Wrap" VerticalAlignment="Top" Width="562" FontWeight="Bold" FontStyle="Italic" FontSize="35"/>
 		</StackPanel>
-
+		<TextBlock x:Name="tripMessageTextBlock" FontStyle="Italic" FontSize="10" Text="Trip calculator c# code will be developed later" Margin="959,426,336,556"/>
 		<StackPanel>
 			<Image x:Name="abacus" Width="105" Source="/Assets/abacus.PNG" HorizontalAlignment="Right"/>
 		</StackPanel>
